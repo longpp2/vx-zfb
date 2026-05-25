@@ -8,8 +8,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Footer: typeof import('./src/components/Footer/Footer.vue')['default']
-    Header: typeof import('./src/components/Header/Header.vue')['default']
     Main: typeof import('./src/components/Main/Main.vue')['default']
     TAlert: typeof import('tdesign-vue-next')['Alert']
     TButton: typeof import('tdesign-vue-next')['Button']
@@ -21,7 +19,6 @@ declare module 'vue' {
     TRadioGroup: typeof import('tdesign-vue-next')['RadioGroup']
     TSlider: typeof import('tdesign-vue-next')['Slider']
     TSpace: typeof import('tdesign-vue-next')['Space']
-    TSwitch: typeof import('tdesign-vue-next')['Switch']
     TUpload: typeof import('tdesign-vue-next')['Upload']
   }
 }
